@@ -55,9 +55,8 @@ const Hero = () => {
               <h1>into Real Projects</h1>
               <h1>that Deliver Results</h1>
             </div>
-            <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I'm Rodrigo, a developer based in Brazil with a passion for
-              code.
+            <p className="text-white-50 md:text-xl relative z-10 pointer-events-none max-w-lg">
+              Hi, I'm Rodrigo — Full-Stack Developer based in Brazil with 4+ years shipping production web applications for thousands of users.
             </p>
             <Button
               className="md:w-80 md:h-16 w-60 h-12"

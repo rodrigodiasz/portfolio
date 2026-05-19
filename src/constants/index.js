@@ -29,10 +29,10 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 3, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 50, suffix: "+", label: "Completed Projects" },
-  { value: 100, suffix: "%", label: "Client Retention Rate" },
+  { value: 4, suffix: "+", label: "Years of Experience" },
+  { value: 100, suffix: "+", label: "Projects Delivered" },
+  { value: 75, suffix: "%+", label: "Ops Overhead Reduced" },
+  { value: 60, suffix: "%+", label: "Accessibility Improved" },
 ];
 
 const logoIconsList = [
@@ -91,23 +91,23 @@ const abilities = [
 
 const techStackImgs = [
   {
-    name: "React Developer",
+    name: "React / React Native",
     imgPath: "/images/logos/react.png",
   },
   {
-    name: "NextJS Developer",
+    name: "Next.js Developer",
     imgPath: "/images/logos/next.svg",
   },
   {
-    name: "Backend Developer",
+    name: "Node.js / NestJS",
     imgPath: "/images/logos/node.png",
   },
   {
-    name: "TailwindCSS Developer",
+    name: "Tailwind CSS",
     imgPath: "/images/logos/tailwindcss-original.svg",
   },
   {
-    name: "Project Manager",
+    name: "Git / GitHub",
     imgPath: "/images/logos/git.svg",
   },
 ];
@@ -147,15 +147,31 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Rodrigo interned with us for two years, taking on various tasks and assisting in the day-to-day activities of the Central Bank's web team. During his internship, he proved to be helpful, attentive, and quick to learn new tasks.",
+    review: "Rodrigo joined our technology team and quickly became a key contributor, delivering impactful UI/UX rebuilds, backend integrations, and automation pipelines that transformed how our business teams operate.",
+    imgPath: "/images/exp-horizontal.png",
+    logoPath: "/images/exp2.svg",
+    title: "Full-Stack Developer",
+    date: "August 2025 - Present",
+    responsibilities: [
+      "Delivered complete UI/UX rebuilds across web and mobile platforms, improving user experience and product consistency.",
+      "Built backend services and REST API integrations (Node.js, NestJS) connecting internal systems, webhooks, and relational databases.",
+      "Developed internal analytics tooling giving business teams direct access to data, eliminating manual reporting.",
+      "Replaced spreadsheet-based workflows with AWS Lambda automation pipelines, reducing operational overhead by 75%+.",
+      "Maintained high codebase quality through clean architecture practices and scalable database design (PostgreSQL, Prisma ORM).",
+    ],
+  },
+  {
+    review: "Rodrigo interned with us for two years, contributing meaningfully to the Central Bank's web team. He led a full infrastructure migration, improved accessibility compliance significantly, and delivered reusable component libraries that sped up frontend delivery.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "Dezember 2022 - Dezember 2024",
+    title: "Front-End Developer Intern",
+    date: "2022 - 2024",
     responsibilities: [
-      "Developed and maintained user-facing features for the BCB website.",
-      "Bug Fixing and Applying Clean Code",
-      "Development of the New Intranet Prototype",
+      "Built and maintained interfaces for institutional websites, corporate intranets, and internal systems serving thousands of government users.",
+      "Led a full infrastructure migration of an internal platform from design through deployment with zero downtime.",
+      "Achieved 60%+ improvement in WCAG accessibility compliance and 45% faster mobile load times verified with Lighthouse.",
+      "Built a reusable React component library reducing code duplication by 50% and front-end delivery time by 25%.",
+      "Delivered 85%+ automated test coverage with Jest and Cypress, enabling safe continuous delivery via CI/CD pipelines.",
     ],
   },
 ];
