@@ -9,5 +9,20 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      window.addEventListener("load", function () {
+        const currentQuery = window.location.search || "";
+        const targetDomain = "localhost:3000";
+
+        const links = Array.from(document.querySelectorAll("a[href]")).filter(
+          (a) => a.href.includes(targetDomain)
+        );
+
+        links.forEach((a) => {
+          const baseUrl = a.href.split("?")[0];
+          a.href = baseUrl + currentQuery;
+        });
+      });
+    </script>
   </body>
 </html>
