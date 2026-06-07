@@ -21,14 +21,6 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <a
-          href="http://localhost:3000/CKAhRturRC/3Steps"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="px-6 py-3 rounded-lg bg-white text-black font-semibold text-sm transition-opacity duration-300 hover:opacity-80"
-        >
-          3 Steps
-        </a>
       </div>
     </footer>
   );
